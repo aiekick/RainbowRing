@@ -1,18 +1,18 @@
 #page title
-page_title                                : Digital Flower Live Wallpaper             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Rainbow Ring                               # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-android_app_id                            : com.funparadigm.warpedflowerwallpaper.AnimatedFlowerWallpaper # Required. Enter android app ID to automatically populate name, price and icons (e.g. com.org.app).
+android_app_id                            : com.funparadigm.rainbowring               # Required. Enter android app ID to automatically populate name, price and icons (e.g. com.org.app).
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            : https://play.google.com/store/apps/details?id=com.funparadigm.warpedflowerwallpaper.AnimatedFlowerWallpaper # Enter Google Play Store URL.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.funparadigm.rainbowring # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/warped_flower_icon.jpg             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Digital Flower Live Wallpaper             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/rainbow_ring_icon.jpg             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Rainbow Ring             # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : A digital flower Live Wallpaper fully configurable
+app_description                           : An addicitve simple game about filling each section of a rainbow ring with projectile coming on it
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -20,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Stephane Cuillerdier                                
-your_link                                 : https://aiekick.github.io/DigitalFlower                                               
+your_link                                 : https://aiekick.github.io/RainbowRing                                               
 email_address                             : aiekick@funparadigm.com
 facebook_username                         :                                           
 instagram_username                        : aiekick
@@ -33,13 +33,13 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Animated Wallpaper
-    description                           : Animated and colorful in background, Real Time (Depends of your GPU)
+  - title                                 : Addictive
+    description                           : Easy to learn, Hard to master
     fontawesome_icon_name                 : magic
     
-  - title                                 : Fully Tunable
-    description                           : Many widgets available for change color, shape, movement
-    fontawesome_icon_name                 : cog
+  - title                                 : Tutorial
+    description                           : A tutorial is available for learn how to play
+    fontawesome_icon_name                 : ring
 
   - title                                 : Requirements
     description                           : Need support of Opengl ES 3.0 and Live wallpaper
